@@ -1,17 +1,18 @@
-﻿@model Vidly.ViewModels.MoviesViewModel
+﻿@model IEnumerable<Vidly.Models.Movie>
 @{
     ViewBag.Title = "Movies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>Movies</h1>
-<table class="table table-hover">
+<table class="table table-hover table-bordered">
     <thead>
     <tr>
-        <th scope="col">Customers</th>
+        <th scope="col">Movies</th>
     </tr>
     </thead>
     <tbody>
-    @foreach (var movie in Model.Movies)
+    @foreach (var movie in Model)
     {
 
         <tr>

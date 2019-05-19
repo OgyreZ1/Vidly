@@ -11,16 +11,17 @@ namespace Vidly.Controllers
     public class MoviesController : Controller
     {
         // GET: Movies
-        public ActionResult Movies()
+        public ViewResult Index() {
+            var movies = GetMovies();
+            return View(movies);
+        }
+        private IEnumerable<Movie> GetMovies()
         {
-            List<Movie> movies = new List<Movie>() {
+            return new List<Movie>
+            {
                 new Movie(){Name = "Shrek!"},
                 new Movie(){Name = "Vall-e"}
             };
-            var viewMovel = new MoviesViewModel() {
-                Movies = movies
-            };
-            return View(viewMovel);
         }
     }
 }
