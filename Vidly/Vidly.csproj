@@ -255,6 +255,14 @@
     <Compile Include="Migrations\201905211156047_CreateGenresTable3.Designer.cs">
       <DependentUpon>201905211156047_CreateGenresTable3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905211242006_AddEndlessMembershipType.cs" />
+    <Compile Include="Migrations\201905211242006_AddEndlessMembershipType.Designer.cs">
+      <DependentUpon>201905211242006_AddEndlessMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905211242254_AddEndlessMembershipTypeToMembershipTypes.cs" />
+    <Compile Include="Migrations\201905211242254_AddEndlessMembershipTypeToMembershipTypes.Designer.cs">
+      <DependentUpon>201905211242254_AddEndlessMembershipTypeToMembershipTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -406,6 +414,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905211156047_CreateGenresTable3.resx">
       <DependentUpon>201905211156047_CreateGenresTable3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905211242006_AddEndlessMembershipType.resx">
+      <DependentUpon>201905211242006_AddEndlessMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905211242254_AddEndlessMembershipTypeToMembershipTypes.resx">
+      <DependentUpon>201905211242254_AddEndlessMembershipTypeToMembershipTypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
