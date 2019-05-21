@@ -195,9 +195,70 @@
     <Compile Include="Migrations\201905181352007_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201905181352007_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905190951170_AddNameColumnToMembershipTypeTable.cs" />
+    <Compile Include="Migrations\201905190951170_AddNameColumnToMembershipTypeTable.Designer.cs">
+      <DependentUpon>201905190951170_AddNameColumnToMembershipTypeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905190952078_PopulateNameColumnInMembershipTypeTable.cs" />
+    <Compile Include="Migrations\201905190952078_PopulateNameColumnInMembershipTypeTable.Designer.cs">
+      <DependentUpon>201905190952078_PopulateNameColumnInMembershipTypeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905192025389_AddBirthdateColumnToCustomersTable.cs" />
+    <Compile Include="Migrations\201905192025389_AddBirthdateColumnToCustomersTable.Designer.cs">
+      <DependentUpon>201905192025389_AddBirthdateColumnToCustomersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905201433564_CreateMoviesTable.cs" />
+    <Compile Include="Migrations\201905201433564_CreateMoviesTable.Designer.cs">
+      <DependentUpon>201905201433564_CreateMoviesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905201440181_CreateGenresTable.cs" />
+    <Compile Include="Migrations\201905201440181_CreateGenresTable.Designer.cs">
+      <DependentUpon>201905201440181_CreateGenresTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905201444490_PupulateGenresTable.cs" />
+    <Compile Include="Migrations\201905201444490_PupulateGenresTable.Designer.cs">
+      <DependentUpon>201905201444490_PupulateGenresTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905201449488_AddReleaseDateColumnToMoviesTable.cs" />
+    <Compile Include="Migrations\201905201449488_AddReleaseDateColumnToMoviesTable.Designer.cs">
+      <DependentUpon>201905201449488_AddReleaseDateColumnToMoviesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905201450241_AddDateAddedColumnToMoviesTable.cs" />
+    <Compile Include="Migrations\201905201450241_AddDateAddedColumnToMoviesTable.Designer.cs">
+      <DependentUpon>201905201450241_AddDateAddedColumnToMoviesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905201455545_PupulateGenresTable1.cs" />
+    <Compile Include="Migrations\201905201455545_PupulateGenresTable1.Designer.cs">
+      <DependentUpon>201905201455545_PupulateGenresTable1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905202217230_AddStockNumberColumnToMoviesTable.cs" />
+    <Compile Include="Migrations\201905202217230_AddStockNumberColumnToMoviesTable.Designer.cs">
+      <DependentUpon>201905202217230_AddStockNumberColumnToMoviesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905202227122_CreateGenresTable1.cs" />
+    <Compile Include="Migrations\201905202227122_CreateGenresTable1.Designer.cs">
+      <DependentUpon>201905202227122_CreateGenresTable1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905211128453_ChangeModelsTable.cs" />
+    <Compile Include="Migrations\201905211128453_ChangeModelsTable.Designer.cs">
+      <DependentUpon>201905211128453_ChangeModelsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905211137324_ChangeModelsTable1.cs" />
+    <Compile Include="Migrations\201905211137324_ChangeModelsTable1.Designer.cs">
+      <DependentUpon>201905211137324_ChangeModelsTable1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905211153224_CreateGenresTable2.cs" />
+    <Compile Include="Migrations\201905211153224_CreateGenresTable2.Designer.cs">
+      <DependentUpon>201905211153224_CreateGenresTable2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905211156047_CreateGenresTable3.cs" />
+    <Compile Include="Migrations\201905211156047_CreateGenresTable3.Designer.cs">
+      <DependentUpon>201905211156047_CreateGenresTable3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -267,6 +328,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -299,6 +361,51 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905181352007_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201905181352007_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905190951170_AddNameColumnToMembershipTypeTable.resx">
+      <DependentUpon>201905190951170_AddNameColumnToMembershipTypeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905190952078_PopulateNameColumnInMembershipTypeTable.resx">
+      <DependentUpon>201905190952078_PopulateNameColumnInMembershipTypeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905192025389_AddBirthdateColumnToCustomersTable.resx">
+      <DependentUpon>201905192025389_AddBirthdateColumnToCustomersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905201433564_CreateMoviesTable.resx">
+      <DependentUpon>201905201433564_CreateMoviesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905201440181_CreateGenresTable.resx">
+      <DependentUpon>201905201440181_CreateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905201444490_PupulateGenresTable.resx">
+      <DependentUpon>201905201444490_PupulateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905201449488_AddReleaseDateColumnToMoviesTable.resx">
+      <DependentUpon>201905201449488_AddReleaseDateColumnToMoviesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905201450241_AddDateAddedColumnToMoviesTable.resx">
+      <DependentUpon>201905201450241_AddDateAddedColumnToMoviesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905201455545_PupulateGenresTable1.resx">
+      <DependentUpon>201905201455545_PupulateGenresTable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905202217230_AddStockNumberColumnToMoviesTable.resx">
+      <DependentUpon>201905202217230_AddStockNumberColumnToMoviesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905202227122_CreateGenresTable1.resx">
+      <DependentUpon>201905202227122_CreateGenresTable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905211128453_ChangeModelsTable.resx">
+      <DependentUpon>201905211128453_ChangeModelsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905211137324_ChangeModelsTable1.resx">
+      <DependentUpon>201905211137324_ChangeModelsTable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905211153224_CreateGenresTable2.resx">
+      <DependentUpon>201905211153224_CreateGenresTable2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905211156047_CreateGenresTable3.resx">
+      <DependentUpon>201905211156047_CreateGenresTable3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

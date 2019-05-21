@@ -8,31 +8,20 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body style="padding: 0px">
-@*
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header"> 
-                @Html.ActionLink("Vidly", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-                @Html.ActionLink("Customers", "Customers", "Customers", new { area = "" }, new { @class = "navbar-brand" })
-                @Html.ActionLink("Movies", "Movies", "Movies", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            
-        </div>
-    </div>
-    *@
+
 @Html.Partial("_NavBar")
 
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <br/>
-            <p>&copy; @DateTime.Now.Year - Vidly</p>
-        </footer>
-    </div>
+<div class="container body-content">
+    @RenderBody()
+    <hr/>
+    <footer>
+        <br/>
+        <p>&copy; @DateTime.Now.Year - Vidly</p>
+    </footer>
+</div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
 </body>
 </html>
