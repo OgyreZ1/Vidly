@@ -175,93 +175,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201905181309348_InitialModel.cs" />
-    <Compile Include="Migrations\201905181309348_InitialModel.Designer.cs">
-      <DependentUpon>201905181309348_InitialModel.cs</DependentUpon>
+    <Compile Include="Migrations\201905232333211_IdentityMigration.cs" />
+    <Compile Include="Migrations\201905232333211_IdentityMigration.Designer.cs">
+      <DependentUpon>201905232333211_IdentityMigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201905181332478_AddIsSubscribedToCustomer.cs" />
-    <Compile Include="Migrations\201905181332478_AddIsSubscribedToCustomer.Designer.cs">
-      <DependentUpon>201905181332478_AddIsSubscribedToCustomer.cs</DependentUpon>
+    <Compile Include="Migrations\201905232349007_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\201905232349007_PopulateMembershipTypes.Designer.cs">
+      <DependentUpon>201905232349007_PopulateMembershipTypes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201905181336297_AddMembershipTypeToCustomersTable.cs" />
-    <Compile Include="Migrations\201905181336297_AddMembershipTypeToCustomersTable.Designer.cs">
-      <DependentUpon>201905181336297_AddMembershipTypeToCustomersTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905181339017_PopulateMembershipTypes.cs" />
-    <Compile Include="Migrations\201905181339017_PopulateMembershipTypes.Designer.cs">
-      <DependentUpon>201905181339017_PopulateMembershipTypes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905181352007_ApplyAnnotationsToCustomerName.cs" />
-    <Compile Include="Migrations\201905181352007_ApplyAnnotationsToCustomerName.Designer.cs">
-      <DependentUpon>201905181352007_ApplyAnnotationsToCustomerName.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905190951170_AddNameColumnToMembershipTypeTable.cs" />
-    <Compile Include="Migrations\201905190951170_AddNameColumnToMembershipTypeTable.Designer.cs">
-      <DependentUpon>201905190951170_AddNameColumnToMembershipTypeTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905190952078_PopulateNameColumnInMembershipTypeTable.cs" />
-    <Compile Include="Migrations\201905190952078_PopulateNameColumnInMembershipTypeTable.Designer.cs">
-      <DependentUpon>201905190952078_PopulateNameColumnInMembershipTypeTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905192025389_AddBirthdateColumnToCustomersTable.cs" />
-    <Compile Include="Migrations\201905192025389_AddBirthdateColumnToCustomersTable.Designer.cs">
-      <DependentUpon>201905192025389_AddBirthdateColumnToCustomersTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905201433564_CreateMoviesTable.cs" />
-    <Compile Include="Migrations\201905201433564_CreateMoviesTable.Designer.cs">
-      <DependentUpon>201905201433564_CreateMoviesTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905201440181_CreateGenresTable.cs" />
-    <Compile Include="Migrations\201905201440181_CreateGenresTable.Designer.cs">
-      <DependentUpon>201905201440181_CreateGenresTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905201444490_PupulateGenresTable.cs" />
-    <Compile Include="Migrations\201905201444490_PupulateGenresTable.Designer.cs">
-      <DependentUpon>201905201444490_PupulateGenresTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905201449488_AddReleaseDateColumnToMoviesTable.cs" />
-    <Compile Include="Migrations\201905201449488_AddReleaseDateColumnToMoviesTable.Designer.cs">
-      <DependentUpon>201905201449488_AddReleaseDateColumnToMoviesTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905201450241_AddDateAddedColumnToMoviesTable.cs" />
-    <Compile Include="Migrations\201905201450241_AddDateAddedColumnToMoviesTable.Designer.cs">
-      <DependentUpon>201905201450241_AddDateAddedColumnToMoviesTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905201455545_PupulateGenresTable1.cs" />
-    <Compile Include="Migrations\201905201455545_PupulateGenresTable1.Designer.cs">
-      <DependentUpon>201905201455545_PupulateGenresTable1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905202217230_AddStockNumberColumnToMoviesTable.cs" />
-    <Compile Include="Migrations\201905202217230_AddStockNumberColumnToMoviesTable.Designer.cs">
-      <DependentUpon>201905202217230_AddStockNumberColumnToMoviesTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905202227122_CreateGenresTable1.cs" />
-    <Compile Include="Migrations\201905202227122_CreateGenresTable1.Designer.cs">
-      <DependentUpon>201905202227122_CreateGenresTable1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905211128453_ChangeModelsTable.cs" />
-    <Compile Include="Migrations\201905211128453_ChangeModelsTable.Designer.cs">
-      <DependentUpon>201905211128453_ChangeModelsTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905211137324_ChangeModelsTable1.cs" />
-    <Compile Include="Migrations\201905211137324_ChangeModelsTable1.Designer.cs">
-      <DependentUpon>201905211137324_ChangeModelsTable1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905211153224_CreateGenresTable2.cs" />
-    <Compile Include="Migrations\201905211153224_CreateGenresTable2.Designer.cs">
-      <DependentUpon>201905211153224_CreateGenresTable2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905211156047_CreateGenresTable3.cs" />
-    <Compile Include="Migrations\201905211156047_CreateGenresTable3.Designer.cs">
-      <DependentUpon>201905211156047_CreateGenresTable3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905211242006_AddEndlessMembershipType.cs" />
-    <Compile Include="Migrations\201905211242006_AddEndlessMembershipType.Designer.cs">
-      <DependentUpon>201905211242006_AddEndlessMembershipType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905211242254_AddEndlessMembershipTypeToMembershipTypes.cs" />
-    <Compile Include="Migrations\201905211242254_AddEndlessMembershipTypeToMembershipTypes.Designer.cs">
-      <DependentUpon>201905211242254_AddEndlessMembershipTypeToMembershipTypes.cs</DependentUpon>
+    <Compile Include="Migrations\201905232351578_PopulateGenres.cs" />
+    <Compile Include="Migrations\201905232351578_PopulateGenres.Designer.cs">
+      <DependentUpon>201905232351578_PopulateGenres.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -275,19 +199,134 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CustomersViewModel.cs" />
     <Compile Include="ViewModels\CustomerFormViewModel.cs" />
+    <Compile Include="ViewModels\MovieFormViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\toastr.css" />
     <Content Include="Content\bootstrap-lumen.css" />
     <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\autoFill.bootstrap.css" />
+    <Content Include="Content\DataTables\css\autoFill.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\autoFill.dataTables.css" />
+    <Content Include="Content\DataTables\css\autoFill.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\autoFill.foundation.css" />
+    <Content Include="Content\DataTables\css\autoFill.foundation.min.css" />
+    <Content Include="Content\DataTables\css\autoFill.jqueryui.css" />
+    <Content Include="Content\DataTables\css\autoFill.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\buttons.bootstrap.css" />
+    <Content Include="Content\DataTables\css\buttons.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\buttons.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\buttons.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\buttons.dataTables.css" />
+    <Content Include="Content\DataTables\css\buttons.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\buttons.foundation.css" />
+    <Content Include="Content\DataTables\css\buttons.foundation.min.css" />
+    <Content Include="Content\DataTables\css\buttons.jqueryui.css" />
+    <Content Include="Content\DataTables\css\buttons.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.bootstrap.css" />
+    <Content Include="Content\DataTables\css\colReorder.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.dataTables.css" />
+    <Content Include="Content\DataTables\css\colReorder.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.foundation.css" />
+    <Content Include="Content\DataTables\css\colReorder.foundation.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.jqueryui.css" />
+    <Content Include="Content\DataTables\css\colReorder.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.bootstrap.css" />
+    <Content Include="Content\DataTables\css\dataTables.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.foundation.css" />
+    <Content Include="Content\DataTables\css\dataTables.foundation.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.jqueryui.css" />
+    <Content Include="Content\DataTables\css\dataTables.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.material.css" />
+    <Content Include="Content\DataTables\css\dataTables.material.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.semanticui.css" />
+    <Content Include="Content\DataTables\css\dataTables.semanticui.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.uikit.css" />
+    <Content Include="Content\DataTables\css\dataTables.uikit.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.bootstrap.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.dataTables.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.foundation.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.foundation.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.jqueryui.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.bootstrap.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.dataTables.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.foundation.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.foundation.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.jqueryui.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\jquery.dataTables.css" />
+    <Content Include="Content\DataTables\css\jquery.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\jquery.dataTables_themeroller.css" />
+    <Content Include="Content\DataTables\css\keyTable.bootstrap.css" />
+    <Content Include="Content\DataTables\css\keyTable.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\keyTable.dataTables.css" />
+    <Content Include="Content\DataTables\css\keyTable.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\keyTable.foundation.css" />
+    <Content Include="Content\DataTables\css\keyTable.foundation.min.css" />
+    <Content Include="Content\DataTables\css\keyTable.jqueryui.css" />
+    <Content Include="Content\DataTables\css\keyTable.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\responsive.bootstrap.css" />
+    <Content Include="Content\DataTables\css\responsive.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\responsive.dataTables.css" />
+    <Content Include="Content\DataTables\css\responsive.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\responsive.foundation.css" />
+    <Content Include="Content\DataTables\css\responsive.foundation.min.css" />
+    <Content Include="Content\DataTables\css\responsive.jqueryui.css" />
+    <Content Include="Content\DataTables\css\responsive.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.bootstrap.css" />
+    <Content Include="Content\DataTables\css\rowReorder.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.dataTables.css" />
+    <Content Include="Content\DataTables\css\rowReorder.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.foundation.css" />
+    <Content Include="Content\DataTables\css\rowReorder.foundation.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.jqueryui.css" />
+    <Content Include="Content\DataTables\css\rowReorder.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\scroller.bootstrap.css" />
+    <Content Include="Content\DataTables\css\scroller.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\scroller.dataTables.css" />
+    <Content Include="Content\DataTables\css\scroller.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\scroller.foundation.css" />
+    <Content Include="Content\DataTables\css\scroller.foundation.min.css" />
+    <Content Include="Content\DataTables\css\scroller.jqueryui.css" />
+    <Content Include="Content\DataTables\css\scroller.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\select.bootstrap.css" />
+    <Content Include="Content\DataTables\css\select.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\select.dataTables.css" />
+    <Content Include="Content\DataTables\css\select.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\select.foundation.css" />
+    <Content Include="Content\DataTables\css\select.foundation.min.css" />
+    <Content Include="Content\DataTables\css\select.jqueryui.css" />
+    <Content Include="Content\DataTables\css\select.jqueryui.min.css" />
+    <Content Include="Content\DataTables\images\details_close.png" />
+    <Content Include="Content\DataTables\images\details_open.png" />
+    <Content Include="Content\DataTables\images\sort_asc.png" />
+    <Content Include="Content\DataTables\images\sort_asc_disabled.png" />
+    <Content Include="Content\DataTables\images\sort_both.png" />
+    <Content Include="Content\DataTables\images\sort_desc.png" />
+    <Content Include="Content\DataTables\images\sort_desc_disabled.png" />
+    <Content Include="Content\DataTables\swf\flashExport.swf" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\toastr.css" />
+    <Content Include="Content\toastr.min.css" />
+    <Content Include="Content\typeahead.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\DataTables\css\common.scss" />
+    <Content Include="Content\DataTables\css\mixins.scss" />
+    <Content Include="Content\toastr.less" />
+    <Content Include="Content\toastr.scss" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -332,13 +371,14 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Customers\CustomerForm.cshtml" />
+    <Content Include="Views\Movies\MovieForm.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_NavBar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -348,80 +388,19 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201905181309348_InitialModel.resx">
-      <DependentUpon>201905181309348_InitialModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201905232333211_IdentityMigration.resx">
+      <DependentUpon>201905232333211_IdentityMigration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905181332478_AddIsSubscribedToCustomer.resx">
-      <DependentUpon>201905181332478_AddIsSubscribedToCustomer.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201905232349007_PopulateMembershipTypes.resx">
+      <DependentUpon>201905232349007_PopulateMembershipTypes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905181336297_AddMembershipTypeToCustomersTable.resx">
-      <DependentUpon>201905181336297_AddMembershipTypeToCustomersTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905181339017_PopulateMembershipTypes.resx">
-      <DependentUpon>201905181339017_PopulateMembershipTypes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905181352007_ApplyAnnotationsToCustomerName.resx">
-      <DependentUpon>201905181352007_ApplyAnnotationsToCustomerName.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905190951170_AddNameColumnToMembershipTypeTable.resx">
-      <DependentUpon>201905190951170_AddNameColumnToMembershipTypeTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905190952078_PopulateNameColumnInMembershipTypeTable.resx">
-      <DependentUpon>201905190952078_PopulateNameColumnInMembershipTypeTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905192025389_AddBirthdateColumnToCustomersTable.resx">
-      <DependentUpon>201905192025389_AddBirthdateColumnToCustomersTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905201433564_CreateMoviesTable.resx">
-      <DependentUpon>201905201433564_CreateMoviesTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905201440181_CreateGenresTable.resx">
-      <DependentUpon>201905201440181_CreateGenresTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905201444490_PupulateGenresTable.resx">
-      <DependentUpon>201905201444490_PupulateGenresTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905201449488_AddReleaseDateColumnToMoviesTable.resx">
-      <DependentUpon>201905201449488_AddReleaseDateColumnToMoviesTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905201450241_AddDateAddedColumnToMoviesTable.resx">
-      <DependentUpon>201905201450241_AddDateAddedColumnToMoviesTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905201455545_PupulateGenresTable1.resx">
-      <DependentUpon>201905201455545_PupulateGenresTable1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905202217230_AddStockNumberColumnToMoviesTable.resx">
-      <DependentUpon>201905202217230_AddStockNumberColumnToMoviesTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905202227122_CreateGenresTable1.resx">
-      <DependentUpon>201905202227122_CreateGenresTable1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905211128453_ChangeModelsTable.resx">
-      <DependentUpon>201905211128453_ChangeModelsTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905211137324_ChangeModelsTable1.resx">
-      <DependentUpon>201905211137324_ChangeModelsTable1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905211153224_CreateGenresTable2.resx">
-      <DependentUpon>201905211153224_CreateGenresTable2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905211156047_CreateGenresTable3.resx">
-      <DependentUpon>201905211156047_CreateGenresTable3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905211242006_AddEndlessMembershipType.resx">
-      <DependentUpon>201905211242006_AddEndlessMembershipType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905211242254_AddEndlessMembershipTypeToMembershipTypes.resx">
-      <DependentUpon>201905211242254_AddEndlessMembershipTypeToMembershipTypes.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201905232351578_PopulateGenres.resx">
+      <DependentUpon>201905232351578_PopulateGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

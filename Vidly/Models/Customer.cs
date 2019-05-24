@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Security.AccessControl;
-using System.Web;
 
 namespace Vidly.Models
 {
@@ -23,8 +18,8 @@ namespace Vidly.Models
         [Display(Name = "Membership Type")]
         public byte MembershipTypeId { get; set; }
 
-        [Display(Name = "Day of birth")]
+        [Display(Name = "Date of Birth")]
+        
         public DateTime? Birthdate { get; set; }
     }
-
 }
