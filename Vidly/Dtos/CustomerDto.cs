@@ -20,6 +20,8 @@ namespace Vidly.Dtos
         [Required(ErrorMessage = "Please select customer's membership type")]
         public byte MembershipTypeId { get; set; }
 
+        public MembershipTypeDto MembershipType { get; set; }
+
         //[Min18YearsIfAMember]
         public DateTime? Birthdate { get; set; }
     }
