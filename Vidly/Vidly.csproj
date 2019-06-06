@@ -50,6 +50,9 @@
     <Reference Include="AutoMapper, Version=8.1.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
       <HintPath>..\packages\AutoMapper.8.1.0\lib\net461\AutoMapper.dll</HintPath>
     </Reference>
+    <Reference Include="Duke.Owin.VkontakteMiddleware, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Duke.Owin.VkontakteMiddleware.1.4.0\lib\net46\Duke.Owin.VkontakteMiddleware.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -223,6 +226,14 @@
     <Compile Include="Migrations\201906031243415_AddDrivingLicenseToApplicationUser.cs" />
     <Compile Include="Migrations\201906031243415_AddDrivingLicenseToApplicationUser.Designer.cs">
       <DependentUpon>201906031243415_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906050701530_RenameDrivindLicenseToDrivingLicense.cs" />
+    <Compile Include="Migrations\201906050701530_RenameDrivindLicenseToDrivingLicense.Designer.cs">
+      <DependentUpon>201906050701530_RenameDrivindLicenseToDrivingLicense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906061001192_AddPhoneNumberToApplicationUser.cs" />
+    <Compile Include="Migrations\201906061001192_AddPhoneNumberToApplicationUser.Designer.cs">
+      <DependentUpon>201906061001192_AddPhoneNumberToApplicationUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -522,6 +533,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201906031243415_AddDrivingLicenseToApplicationUser.resx">
       <DependentUpon>201906031243415_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906050701530_RenameDrivindLicenseToDrivingLicense.resx">
+      <DependentUpon>201906050701530_RenameDrivindLicenseToDrivingLicense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906061001192_AddPhoneNumberToApplicationUser.resx">
+      <DependentUpon>201906061001192_AddPhoneNumberToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
