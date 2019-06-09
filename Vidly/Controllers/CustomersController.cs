@@ -61,6 +61,7 @@ namespace Vidly.Controllers
         }
 
         public ViewResult Index() {
+            if(MemoryCache)
             return View();
         }
 
