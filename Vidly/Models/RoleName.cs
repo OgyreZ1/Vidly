@@ -6,6 +6,6 @@ using System.Web;
 namespace Vidly.Models
 {
     public static class RoleName {
-        public const string CanManageMovies = "CanMagageMovies";
+        public const string CanManageMovies = "CanManageMovies";
     }
 }
